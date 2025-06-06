@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>JIMBONGO – A Cidade Ecológica</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial, sans-serif; background: #e8f5e9; color: #2e7d32; padding: 20px; max-width: 800px; margin: auto; }
+    h1, h2 { color: #1b5e20; }
+    .pacote { background: #fff; padding: 15px; border-radius: 8px; margin: 10px 0; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .qr { width: 120px; margin: 10px; }
+    footer { margin-top: 40px; font-size: 0.9em; color: #555; text-align: center; }
+  </style>
+</head>
+<body>
+
+  <h1>🌿 JIMBONGO – A Cidade Ecológica</h1>
+  <p><strong>📍 Local:</strong> Feirão da Organizações Chana – VIA EXPRESSA</p>
+  <p><strong>📅 Data:</strong> 28 e 29 de Junho | <strong>⏰ Horário:</strong> das 10h às 18h</p>
+
+  <h2>🎟️ Ingressos</h2>
+  <div class="pacote">Pacote UNO – 5.000 KZS (1 pessoa)</div>
+  <div class="pacote">Pacote TRIO – 15.000 KZS (3 pessoas)</div>
+  <div class="pacote">Pacote CLÃ – 25.000 KZS (6 pessoas)</div>
+
+  <h2>💳 Compra por QR Code</h2>
+  <img src="https://i.ibb.co/zxDxtJp/qr-facipay.png" class="qr" alt="FaciPay QR">
+  <img src="https://i.ibb.co/8gDW9p9/qr-jpay.png" class="qr" alt="JPay QR">
+
+  <h2>🤖 Fale com o Jimbot</h2>
+  <div id="chatbot"></div>
+
+  <!-- Chatbase Chatbot -->
+  <script>
+    window.chatbaseConfig = {
+      chatbotId: "JIMBONGOChat"
+    };
+  </script>
+  <script src="https://www.chatbase.co/embed.min.js" id="chatbase-script" defer></script>
+
+  <footer>
+    Desenvolvido por Nelson Walter | Powered by GitHub Pages + Chatbase
+  </footer>
+
+</body>
+</html>
